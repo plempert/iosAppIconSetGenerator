@@ -1,0 +1,25 @@
+<html>
+<head>
+    <style>
+        html {
+            color: white;
+            overflow-y: hidden;
+            background: url('space-gradient.jpg') no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -moz-background-size: cover;
+            -o-background-size: cover;
+            background-size: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <form action="api/v1/iOS/generateAppIconSet" method="post" accept-charset="utf-8" enctype="multipart/form-data">
+        <input type="file" name="image" id="photo" />
+        <input type="submit" value="Upload" />
+    </form>
+
+
+
+</body>
+</html>
